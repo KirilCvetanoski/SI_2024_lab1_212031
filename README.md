@@ -1,1 +1,1 @@
-# SI_2024_lab1_212031
+Kiril Cvetanoski 212031
