@@ -1,0 +1,41 @@
+commit 157aa49096a4d3deced7a59bfe014006f50ed977
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 16:08:21 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit f84e9066d70f2f76894c6d340e92e1e011121e7e
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 16:05:23 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 9346cc764f54abd1a376159cc02809893a0d308e
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 16:07:28 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 5b5f92a8efa7dc59f4cc629db111abfdeae9a8a4
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 16:02:57 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit ab3ed8191bafb9276bd09f8e735851e9d4762eea
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 16:00:19 2024 +0200
+
+    Add starter code
+
+commit f58f9428d18a115406cc2b7e439a23d4e54f01d5
+Author: Kiril Cvetanoski <kiril.cvetanoski@students.finki.ukim.mk>
+Date:   Sun Apr 14 15:57:58 2024 +0200
+
+    Initial commit
+
+commit 3c78f37f381f3e4292a15f96c6b8a8ca100e6e8a
+Author: KirilCvetanoski <166858116+KirilCvetanoski@users.noreply.github.com>
+Date:   Sun Apr 14 15:44:29 2024 +0200
+
+    Initial commit
