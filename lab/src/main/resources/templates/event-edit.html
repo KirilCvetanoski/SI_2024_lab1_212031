@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Додавање/Уредување на настан</title>
+</head>
+<body>
+<h1 th:text="${event.id != null ? 'Уредување на настан' : 'Додавање на нов настан'}"></h1>
+
+<form action="/events/add" method="post">
+  <input type="hidden" name="id" th:value="${event.id}" />
+
+  <label for="name">Име на настан:</label>
+  <input type="text" name="name" id="name" th:value="${event.name}" required />
+
+  <label for="description">Опис:</label>
+  <input type="text" name="description" id="description" th:value="${event.description}" required />
+
+  <label for="popularityScore">Популарност:</label>
+  <input type="number" name="popularityScore" id="popularityScore" th:value="${event.popularityScore}" step="0.1" required />
+
+  <label for="location">Локација:</label>
+  <select name="location" id="location" required>
+    <option th:each="location : ${locations}"
+            th:value="${location.id}"
+            th:text="${location.name}"
+            th:selected="${location.id == event.location.id}">Локација</option>
+  </select>
+
+  <button type="submit">Зачувај</button>
+</form>
+
+<a href="/events">Назад на листата со настани</a>
+</body>
+</html>
